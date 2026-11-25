@@ -1,17 +1,21 @@
-# maw3idi
+# موعدي (Maw3idi)
 
-A new Flutter project.
+تطبيق Flutter لحجز وإدارة المواعيد الطبية بواجهة عربية تدعم الاتجاه من اليمين إلى اليسار (RTL)، تم تطويره والتحقق من تشغيله على المتصفح.
 
-## Getting Started
+## فيديو شرح تشغيل التطبيق
+(مشاهدة فيديو المشروع على Google Drive)
+[https://drive.google.com/file/d/1bbJSUUlYHy18ae2MzC6xV32Qh8ytVHkT/view?usp=sharing]
 
-This project is a starting point for a Flutter application.
+## لقطات الشاشة (Screenshots)
+توجد صور الشاشات داخل مجلد `screenshots`:
+- شاشة البداية: `screenshots/splash.png`
+- شاشة تسجيل الدخول: `screenshots/login.png`
+- الشاشة الرئيسية: `screenshots/home.png`
+- شاشة تأكيد الموعد: `screenshots/confirm.png`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## هيكل المشروع
+- `lib/`: أكواد التطبيق الرئيسية في Flutter
+- `web/`: ملفات تشغيل الويب
+- `screenshots/`: لقطات شاشة واجهات التطبيق
+- `pubspec.yaml`: إعدادات المشروع والحزم المستخدمة
+- `README.md`: توثيق المشروع ورابط الفيديو
